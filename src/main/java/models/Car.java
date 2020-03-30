@@ -65,4 +65,5 @@ public class Car {
         this.color = color;
         this.price = price;
     }
+    public Car(){}
 }
