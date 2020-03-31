@@ -1,6 +1,6 @@
 package daos;
 
-public class CarDTO  {
+public class CarDTO implements DTO {
     private int id;
     private String make;
     private String model;
@@ -63,5 +63,9 @@ public class CarDTO  {
         this.year = year;
         this.color = color;
         this.price = price;
+    }
+
+    public int getCarById() {
+        return getId();
     }
 }
